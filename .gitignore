@@ -1,0 +1,35 @@
+# python compiled files
+*.pyc
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+.vscode/*
+.idea/
+.DS_Store
+
+# pytest framework files
+report*
+testcases/teammanagepage
+pages/vimeo
+allure_report/
+allure_report_old
+output.json
+pytest_screenshots
+Drivers/*
+.pytest_cache
+*.html
+# Commenting excel ignore line as we need test data in excel while running from jenkins
+# library/TestData*.xlsx
+archive

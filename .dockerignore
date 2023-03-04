@@ -1,0 +1,10 @@
+allure_report
+archive
+report
+.pytest_cache
+Drivers
+*.*.pytest_cache
+output.json
+pytest_html_report.html
+testcases/teammanagepage
+pages/vimeo
