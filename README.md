@@ -4,8 +4,7 @@
 
 ### Executing Test Scripts in parallel mode using docker:
 
-- Download the docker-compose.yaml file from this github below link, and place it in any
-  directory https://github.vimeows.com/Vimeo/qa-pytest-runner/blob/master/docker-compose.yaml 
+- Download the docker-compose.yaml file
 
 - Run below command in terminal (from directory containing docker-compose.yaml):
 
@@ -21,7 +20,7 @@ reference.
 
 `BROWSER = chrome`
 
-`CI_URL = https://master.ci.vimeows.com/`
+`CI_URL = https://www.saucedemo.com/`
 
 `N_PROCESSES = 2` Note: For single browser and single process, we can set n and N_PROCESSES values to 1 .
 
@@ -81,13 +80,13 @@ This is a QA Automation Project - designed using Python, Pytest and html-reporte
 - step 1: After test execution is completed run command `allure serve allure_report/` to generate report
 - step 2: Copy path of `allure_report` folder from terminal.
 - step 3: Run command to open report in a finder folder e.g. `open /var/folders/....../allure_report`
-- step 4: Clone repository [qa-blr-test-reports](https://github.vimeows.com/pages/Vimeo/qa-blr-test-reports) to local
+- step 4: Clone repository to local
   machine
 - step 5: Switch to 'main' branch
 - step 6: Replace all contents from `allure_report` (refer step 3) to the `qa-blr-test-reports`
 - step 7: git add, commit, push changes to `main` remote branch of `qa-blr-test-reports`
 
-Now allure report can be accessed online using following url https://github.vimeows.com/pages/Vimeo/qa-blr-test-reports/
+Now allure report can be accessed online using following url 
 
 ### Executing only tests with specific markers (tags)
 
