@@ -50,7 +50,7 @@ services:
       - SE_EVENT_BUS_HOST=hub
       - MODULE_NAME=testcases/ #TeamManagePage/test_members_tab.py
       - BROWSER=chrome
-      - CI_URL=https://master.ci.vimeows.com/
+      - CI_URL=https://www.saucedemo.com/      #https://master.ci.vimeows.com/
       - N_PROCESSES=5 # number of processes - e.g. 2 if --scale chrome=2 in docker-compose up command
     volumes:
       - ./test_report:/usr/automation/test_report
